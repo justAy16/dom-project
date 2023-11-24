@@ -1,0 +1,119 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: orangered;
+    max-height: 45px;;
+    display: flex;
+    margin-bottom: 3px ;
+    justify-content: space-between;
+}
+button, i{
+    cursor: pointer;
+}
+.productList{
+    display: flex;
+}
+.shop-logo{
+    margin: 0;
+    display: flex;
+}
+.logo-img{
+    width: 58px;
+    margin: 0;
+}
+.logo-text{
+    margin-left: 18px;
+}
+.search-div{
+    position: relative;
+}
+.search-bar{
+    position: relative;
+    border: none;
+    width: 35vw;
+    height: 33px;
+    min-width: 30vw;
+    border-radius: 5px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    right: 3%;
+    top: 45%;
+}
+.shopping-div{
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    position: relative;
+}
+.fa-cart-shopping{
+position: absolute;
+right: 22%;
+top: 60%;
+}
+.cart-quantity{
+    position: absolute;
+    font-weight: 800;
+    right: 24%;
+    top: 8%;
+}
+.holiday-deal-img{
+    width: 100%;
+    overflow: hidden;
+}
+.productList{
+    overflow-x: scroll;
+    background-color: orangered;
+    height: 560px;
+    padding: 8px;
+}
+.card{
+    width: 260px;
+    height: 350px;
+    margin-top: 0;
+    margin-right: 8px;
+    padding: 5px;
+    background-color: wheat;
+    position: relative;
+}
+.card img{
+    height: 230px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.context{
+    height: 65px;
+}
+.card h3{
+    font-weight: 600;
+    font-size: medium;
+}
+.add-btn, .rmv-btn{
+    height:26px;
+    width: 68px;
+    border-radius: 15px;
+    border: none;
+}
+.add-btn{
+    background-color: rgba(255, 68, 0, 0.812);
+}
+.rmv-btn{
+    background-color: rgba(128, 128, 128, 0.662);
+}
+.heart {
+    cursor: pointer;
+    color: grey;
+    font-size: 24px;
+    transition: color 0.3s;
+    float: right;
+    margin-right: 20px;
+}
+/* how we're able to like and unlike */
+.heart.liked{
+    color: red;
+}
